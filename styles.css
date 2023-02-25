@@ -106,6 +106,8 @@ aside{
     color: var(--softMagenta);
     border-color: var(--softMagenta);
 }
+
+
 /* !!!!!!! MEDIUM SCREEN STYLES */
 @media(min-width: 601px) and (max-width: 1100px){
     body{
@@ -118,7 +120,13 @@ aside{
         margin-top: 5em;
         margin-bottom: -3em;
     }
+    .lineBreak{
+        display: inline;
+    }
     #headBreak{
+        display: block;
+    }
+    .medBreak{
         display: block;
     }
 }
