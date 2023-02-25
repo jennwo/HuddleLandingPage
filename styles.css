@@ -164,13 +164,15 @@ aside{
     }
     .logoContainer{
         grid-area: header;
+        margin-top: 3em;
+        margin-left: 3em;
     }
-    
+  
     .headImage{
         grid-area: headerImg;
     }
     .headImage{
-        margin-top: 8vh;
+        margin-top: 5vh;
         margin-left: 3vh;
         max-width: 100%;
         width: 54vw;
@@ -216,7 +218,7 @@ aside{
         text-align: center;
     }
     aside{
-        margin-top: 12em;
+        margin-top: 10em;
         /* margin-bottom: 10vh; */
     }
     .socialIcons{
