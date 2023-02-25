@@ -37,6 +37,10 @@ h1, h2, h3, h4, h5, h6 {
     background-repeat: no-repeat;
 }
 /* HEADING STYLES */
+.logoContainer{
+    margin-top: 1em;
+    margin-left: 2em;
+}
 .logoSVG{
     max-width: 30vw;
     float: left;
@@ -112,7 +116,10 @@ aside{
 @media(min-width: 601px) and (max-width: 1001px){
     body{
         height: 100vh;
-        overflow: visible;
+    }
+    .logoSVG{
+        max-width: 25vw;
+        float: left;
     }
 
     .headImage{
@@ -167,6 +174,10 @@ aside{
         margin-top: 3em;
         margin-left: 3em;
     }
+    .logoSVG{
+        width: 20vw;
+        float: left;
+    }
   
     .headImage{
         grid-area: headerImg;
@@ -219,7 +230,7 @@ aside{
         text-align: center;
     }
     aside{
-        margin-top: 8em;
+        margin-top: 11em;
         /* margin-bottom: 10vh; */
     }
     .socialIcons{
@@ -232,7 +243,11 @@ aside{
     }
 }
 
-@media (min-width: 1001px) and (max-width: 1200px){
+@media (min-width: 1000px) and (max-width: 1300px){
+    .logoSVG{
+        width: 20vw;
+        float: left;
+    }
     aside{
         margin-top: -1em;
         margin-left: 7em;
