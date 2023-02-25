@@ -200,6 +200,7 @@ aside{
     }
     .mainText{
         text-align: left;
+        padding-right: 3em;
     }
     .lineBreak{
         display: inline;
@@ -218,7 +219,7 @@ aside{
         text-align: center;
     }
     aside{
-        margin-top: 10em;
+        margin-top: 8em;
         /* margin-bottom: 10vh; */
     }
     .socialIcons{
@@ -233,7 +234,7 @@ aside{
 
 @media (min-width: 1001px) and (max-width: 1200px){
     aside{
-        margin-top: 1em;
+        margin-top: -1em;
         margin-left: 7em;
     }
 }
