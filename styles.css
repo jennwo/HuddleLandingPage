@@ -116,8 +116,10 @@ aside{
     }
 
     .headImage{
+        justify-self: center;
+        align-self: center;
         width: 50vw;
-        margin-left: -10em;
+        margin-left: -15em;
         margin-top: 5em;
         margin-bottom: -3em;
     }
